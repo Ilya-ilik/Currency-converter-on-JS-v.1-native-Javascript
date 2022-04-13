@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Конвертер валют
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Money converter</h1>
+        <p>
+            <label>$</label>
+            <input type="number" id="inputdol" placeholder="$" oninput="moneyConverter(this.value)" onchange="moneyConverter(this.value)"> 
+        </p>
+
+        <p>
+            Rub:<span id="outputrub"></span>
+            
+        </p>
+
+        
+    </body>
+</html>
+
+
+ <!--type="number" в input дает менять значение числовое в окне инпута стрелочками  больше меньше-->
+ <!-- <label>$</label> HTML-элемент <label> представляет собой подпись к элементу пользовательского интерфейса. -->
+ <!-- id="inputdol" это айдишник по которому с файля js будет обращаться скрипт  -->
+ <!-- placeholder="$" значек который будет дефодно отоброжаться в окне инпута до введения туда значения-->
+ <!-- oninput="moneyConverter(this.value)" -->
+ <!--onchange="moneyConverter(this.value)"  -->
+ <!--Rub:<span id="outputrub"></span> до сих пор пока не понимаю прямого назначеня <span> но вроде как тут будет выводитья значение  -->
+ <!-- -->
